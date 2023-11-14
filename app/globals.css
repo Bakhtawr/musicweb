@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.banner-bg
+{
+  background: linear-gradient(90deg, rgba(255,64,0,1) 0%, rgba(255,64,0,0.7903361173570991) 35%, rgba(255,255,255,1) 100%); 
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+.textcolor{
+  color:#FF4000;
 }
 
 @media (prefers-color-scheme: dark) {
